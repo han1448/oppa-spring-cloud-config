@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: myapp
+
+  profiles:
+    include: "profileA,profileB,profileC"
+    group:
+      default:
+        - "profileA"
+        - "profileB"
+        - "profileC"
+
+
+
